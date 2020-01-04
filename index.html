@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Madlib Game</title> 
+    <title>Mad Libs Game</title> 
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-  <label>
-    Proper noun: <input id="fake">
-  </label>
-
-  <label>
-    Action: <input id="action">
-  </label>
-
-  <label>
-    Noun: <input id="noun">
-  </label>
+  <form>
+    <label>
+      Proper noun: <input id="fake">
+    </label>
   
-  <button onclick="input()">Submit</button>
+    <label>
+      Action: <input id="action">
+    </label>
+  
+    <label>
+      Noun: <input id="noun">
+    </label>
+    
+    <button onclick="input()">Submit</button>
+  </form>
 
+<section>
   <p>Hello, my name is <span id="nameResult"></span>.</p>
   
   <p>I am <span id="actionResult"></span> at Alchemy.</p>
 
   <p>Later I will get a <span id="nounResult"></span>.</p>
+</section>
 
   <script src="app.js"></script>
 </body>

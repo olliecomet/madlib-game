@@ -6,6 +6,7 @@ const actionResult = document.getElementById('actionResult');
 const nounResult = document.getElementById('nounResult');
 
 function input() {
+  event.preventDefault();
   nameResult.textContent = fake.value;
   actionResult.textContent = action.value;
   nounResult.textContent = noun.value;

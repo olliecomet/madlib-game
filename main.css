@@ -1,6 +1,55 @@
 body {
   color: white;
-  background-color: slategrey;
-  font-size: 18px;
+  background-color: cadetblue;
+  font-size: 1.3em;
   font-weight: bold;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  margin-bottom: 15px;
+}
+
+label {
+  align-self: center;
+  margin-bottom: 15px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  align-self: center;
+  margin-top: 15px;
+  width: 125px;
+  padding: 10px;
+  background-color: lightgreen;
+  font-size: .7em;
+  border: none;
+}
+
+button:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+section {
+  height: 50vh;
+  text-align: center;
+}
+
+section, form {
+  background-color: black;
+  width: 50%;
+  align-self: center;
+  padding: 15px;
+  border: 4px solid white;
+  border-radius: 1%;
 }
