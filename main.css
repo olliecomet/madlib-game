@@ -24,29 +24,35 @@ label {
   justify-content: space-between;
 }
 
+input {
+  border: none;
+}
+
 button {
   align-self: center;
   margin-top: 15px;
   width: 125px;
   padding: 10px;
-  background-color: lightgreen;
+  background-color: white;
   font-size: .7em;
   border: none;
+  font-weight: bold;
+  color: cadetblue;
 }
 
 button:hover {
-  background-color: cadetblue;
+  background-color: lightgreen;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 section {
   height: 50vh;
   text-align: center;
+  display: none;
 }
 
 section, form {
-  background-color: black;
   width: 50%;
   align-self: center;
   padding: 15px;
